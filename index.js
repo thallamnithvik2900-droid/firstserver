@@ -9,7 +9,8 @@ app.use(express.json());
 let user=[
       {id:1, name:'Alice'},    
       {id:2, name:'Bob'},
-      {id:3, name:'Charlie'}
+      {id:3, name:'Charlie'},
+      {id:4, name:'jjjjj'}
   ]
 
 app.get('/getuser', (req, res) => {
