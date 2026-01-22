@@ -11,7 +11,8 @@ let user=[
       {id:2, name:'Bob'},
       {id:3, name:'Charlie'},
       {id:4, name:'jjjjj'},
-      {id:5, name:'jjjjj'}
+      {id:5, name:'jjjjj'},
+      {id:6, name:'jjjjj'}
   ]
 
 app.get('/getuser', (req, res) => {
